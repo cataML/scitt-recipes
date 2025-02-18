@@ -1,5 +1,33 @@
 .body{
-    background-color: greenyellow;
+    background-color: gainsboro;
+}
+
+.navbar{
+    background-color: rgb(216, 243, 169);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    display: flex;
+    
+}
+.navbar a{
+    float: left;
+    text-align:right;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    display: flex;
+    
+}
+.nav-links {
+    display: flex;
+    gap: 15px;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
 }
 h1{
     color: black;
@@ -7,6 +35,7 @@ h1{
     font-weight: bold;
     text-align: center;
 }
+
 p{
     font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
